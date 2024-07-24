@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6228321007166862987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2489678281796202782}
+  - component: {fileID: 8841291558380674791}
+  m_Layer: 0
+  m_Name: AudioBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2489678281796202782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228321007166862987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1840.5, y: 720, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8841291558380674791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6228321007166862987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c45b144002c4e079cb5ea6fb4bf65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicMixer: {fileID: -1767491754884677554, guid: c943f3d0d7cb148e39e2418a55174c70,
+    type: 2}
+  soundMixer: {fileID: 4758283196641582311, guid: c943f3d0d7cb148e39e2418a55174c70,
+    type: 2}
+  musics:
+  - name: Music
+    clip: {fileID: 8300000, guid: 7407dfe9131ae43f4a7137528c5b6fa1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  sounds:
+  - name: Test
+    clip: {fileID: 8300000, guid: ee5364d81d5c34e9dace5121d9150fc7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: HandSnap
+    clip: {fileID: 8300000, guid: 98b08d06b4eff493b8459e398620592f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: HandClick
+    clip: {fileID: 8300000, guid: e3df1ae7c0f5645b9b75699bcc3ad525, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: Last10
+    clip: {fileID: 8300000, guid: 5009d2f4ce8cd4e888720ddacdcd30bf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: MenuMove
+    clip: {fileID: 8300000, guid: cfa72a4b6624047bba07b82191648257, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: MenuClick
+    clip: {fileID: 8300000, guid: ad52344cce4074bb2817629bd3569932, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
+  - name: GameStart
+    clip: {fileID: 8300000, guid: 5009d2f4ce8cd4e888720ddacdcd30bf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    fullPlay: 0
+    unstop: 0
+    source: {fileID: 0}
